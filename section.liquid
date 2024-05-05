@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sticky and Scrolling Columns</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    overflow-y: auto; /* Allow vertical scrolling for the entire webpage */
+  }
+
+  .section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px; /* Add margin for better visibility */
+  }
+
+  .sticky-column {
+    position: sticky;
+    top: 0;
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 80vh; /* Limit the max height to prevent it from overflowing the viewport */
+  }
+
+  .scrolling-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #e0e0e0;
+  }
+</style>
+</head>
+<body>
+
+<h2>Sticky and Scrolling Columns</h2>
+
+<div class="section">
+  <div class="sticky-column">
+    <h3>Sticky Column</h3>
+    <p>This column will remain sticky while scrolling.</p>
+  </div>
+  <div class="scrolling-column">
+    <h3>Scrolling Column</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpatLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac purus libero. Integer efficitur eu urna eu pretium. Nam vitae tincidunt dolor. Sed fermentum nisi velit, sit amet placerat magna vestibulum ut. Aliquam vel pharetra sapien. Nam volutpat erat non dolor vestibulum, in venenatis justo volutpat. Nullam ac nibh at felis tempus auctor. Nullam condimentum, velit a tristique pharetra, risus enim accumsan sapien, nec placerat nulla sapien a magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut vitae purus vitae metus venenatis venenatis vel in nisi. Morbi auctor quam id lorem bibendum, non lacinia dui varius. Phasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaPhasellus congue, enim vitae egestas gravida, eros libero tempus metus, vel malesuada libero tellus vitae magnaaq.</p>
+    <!-- Add more content as needed -->
+  </div>
+</div>
+
+<!-- Add more sections or content as needed -->
+
+</body>
+</html>
